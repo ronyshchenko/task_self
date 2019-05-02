@@ -1,6 +1,11 @@
+body {
+    margin: 0px;
+}
 .container {
     display: flex;
-    flex-flow: nowrap;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    margin: 20px;
 }
 article {
 width: 100px;
